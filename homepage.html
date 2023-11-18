@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+    <div class="main-head">
+        <div class="main-head-content">
+            <ul>
+                <li>
+                    Address Book
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <div class="list-items">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#" onclick="openDialog()"> +ADD</a></li>
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="assets\blog-icon.png">
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <dialog id="addItemDialog">
+        <form id="addItemForm">
+            <span class="cancel-mark" onclick="cancelDialog()">X</span>
+            <div class="name-field">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" class="input-field" required>
+                <br>
+            </div>
+
+            <div class="email-field">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" class="input-field" required>
+                <br>
+            </div>
+
+            <div class="comtact-numbers">
+                <label for="mobilenumber">Mobile</label>
+                <label for="landline" class="landline-label">Landline</label>
+                <br>
+                <input type="tel" id="mobilenumber" name="mobilenumber" class="small-input" required>
+                <input type="tel" id="landline" name="landline" class="small-input" required>
+
+                <br>
+            </div>
+
+            <div class="website-field">
+                <label for="website">Website</label>
+                <br>
+                <input type="text" id="website" name="website" class="input-field" required>
+                <br>
+            </div>
+
+            <div class="address-field">
+                <label for="address">Address</label>
+                <br>
+                <input type="text" id="address" name="address" class="input-field" required>
+                <br>
+            </div>
+
+            <div class="action-buttons">
+                <button type="button" onclick="addItem()">Add</button>
+                
+            </div>
+
+        </form>
+
+        <div class="empty-container">
+            
+        </div>
+    </dialog>
+
+    <div class="content-head">
+        <ul>
+            <li>CONTACTS</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="contactsContainer" class="contacts-container">
+            <!-- Displayed data will be appended here -->
+        </div>
+
+        <!-- New section to display detailed contact information -->
+        <div id="contactDetails" class="contact-details">
+            <!-- Detailed contact information will be appended here -->
+        </div>
+    </div>
+
+
+    <script src="homepage.js"></script>
+</body>

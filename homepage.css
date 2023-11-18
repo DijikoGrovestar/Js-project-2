@@ -1,0 +1,173 @@
+body {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-head {
+  margin: auto;
+  background-color: #3399cc;
+  padding: 8px;
+}
+
+.main-head-content ul {
+  list-style-type: none;
+  font-size: 34px;
+  color: #ffffff;
+  padding-left: 20px;
+  letter-spacing: 1px;
+}
+
+.nav-bar {
+  margin: 0px;
+  background-color: #333333;
+}
+
+.list-items ul {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px;
+  list-style-type: none;
+  display: flex;
+  color: #ffffff;
+}
+
+.list-items ul li {
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+  border-left: 4px solid transparent;
+  padding: 8px 10px;
+}
+
+.list-items a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.logo-section .logo img {
+  width: 25px;
+  margin: 0 82em;
+  padding-top: 2px;
+}
+
+.content-head {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin: 0px;
+  width: 50%;
+}
+
+.content-head li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+dialog {
+  /* width:50%; */
+  border: none;
+  box-shadow: 0px 0px 20px 0px #333333;
+  padding-right: 20px;
+  line-height: 24px;
+  position:fixed;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  padding: 10px;
+
+  box-sizing:border-box;
+}
+
+.contacts-container {
+  display: list-item;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.contact-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.contact-card p {
+  margin: 5px 0;
+}
+
+.contact-card:hover {
+  background-color: #cee7f2;
+}
+
+.details-card {
+  padding: 10px;
+
+  margin-left: 24px;
+  padding-left: 20px;
+  width: 80%;
+}
+
+.details-card strong {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.container {
+  display: flex;
+}
+
+.contact-card.active {
+  background-color: #cee7f2;
+}
+
+.cancel-mark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.action-buttons button{
+  background-color:#468C00;
+  padding-right:24px;
+  padding-left:24px;
+  color:#ffff;
+
+
+}
+
+.empty-container{
+display:flex;
+
+}
